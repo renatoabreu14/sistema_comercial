@@ -1,0 +1,18 @@
+program prjComercial;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {frmPrincipal},
+  uDMPrincipal in 'uDMPrincipal.pas' {dmPrincipal: TDataModule},
+  uCadUsuario in 'uCadUsuario.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TdmPrincipal, dmPrincipal);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

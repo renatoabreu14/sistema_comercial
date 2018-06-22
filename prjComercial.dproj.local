@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/06/19 20:41:01.000.943,=C:\Users\Renato Oliveira Abre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/19 20:42:14.000.827,C:\Users\Renato Oliveira Abre\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\My projects\desktop\Delphi\Sistema_Comercial\uPrincipal.pas</Transaction>
+    <Transaction>2018/06/19 20:42:14.000.827,C:\Users\Renato Oliveira Abre\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\My projects\desktop\Delphi\Sistema_Comercial\uPrincipal.dfm</Transaction>
+    <Transaction>2018/06/19 20:42:24.000.802,C:\Users\Renato Oliveira Abre\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\My projects\desktop\Delphi\Sistema_Comercial\prjComercial.dproj</Transaction>
+    <Transaction>2018/06/19 20:48:44.000.003,=D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/19 20:49:13.000.192,D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.dfm=D:\My projects\desktop\Delphi\Sistema_Comercial\uDMPrincipal.dfm</Transaction>
+    <Transaction>2018/06/19 20:49:13.000.192,D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.pas=D:\My projects\desktop\Delphi\Sistema_Comercial\uDMPrincipal.pas</Transaction>
+    <Transaction>2018/06/19 20:51:11.000.155,=D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.pas</Transaction>
+    <Transaction>2018/06/19 20:55:22.000.843,D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.dfm=D:\My projects\desktop\Delphi\Sistema_Comercial\uCadUsuario.dfm</Transaction>
+    <Transaction>2018/06/19 20:55:22.000.843,D:\My projects\desktop\Delphi\Sistema_Comercial\Unit1.pas=D:\My projects\desktop\Delphi\Sistema_Comercial\uCadUsuario.pas</Transaction>
+  </Transactions>
+</BorlandProject>

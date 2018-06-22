@@ -1,0 +1,29 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Sistema Comercial Automatizado'
+  ClientHeight = 498
+  ClientWidth = 768
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = mnuPrincipal
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mnuPrincipal: TMainMenu
+    Left = 24
+    Top = 32
+    object mnuCadastro: TMenuItem
+      Caption = '&Cadastro'
+      object mnuCadUsuario: TMenuItem
+        Caption = '&Usu'#225'rio'
+        OnClick = mnuCadUsuarioClick
+      end
+    end
+  end
+end

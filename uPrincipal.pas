@@ -1,0 +1,47 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TfrmPrincipal = class(TForm)
+    mnuPrincipal: TMainMenu;
+    mnuCadastro: TMenuItem;
+    mnuCadUsuario: TMenuItem;
+    procedure mnuCadUsuarioClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+
+implementation
+
+{$R *.dfm}
+
+uses uCadUsuario;
+
+procedure TfrmPrincipal.mnuCadUsuarioClick(Sender: TObject);
+begin
+  if frmCadUsuario = nil then
+    begin
+      frmCadUsuario := TfrmCadUsuario.Create(application);
+      try
+        frmCadUsuario.ShowModal;
+      finally
+        frmCadUsuario.Release;
+        frmCadUsuario:= nil;
+      end;
+
+    end;
+
+end;
+
+end.
